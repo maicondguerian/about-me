@@ -88,10 +88,12 @@ display: block;
 
 .nav-link:hover{
     background: var(--bg-secondary);
+    
 }
 
 .nav-link:focus{
     background: var(--bg-tertiart);
+    color: #578BBC;
 }
 
 .logo{
@@ -109,4 +111,14 @@ display: block;
 
 #unique{
     border-top: 50px;
+}
+
+#profilepic{
+    height: 70px;
+    width: auto;
+    border: 1px solid #b6b6b6;
+    margin-top: 0.5rem;
+    border-radius: 100%;
+
+
 }
